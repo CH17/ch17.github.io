@@ -1,0 +1,65 @@
+[
+    {
+        "title": "My Eyes Only",
+        "description": "An application for secret message sharing specially developed for passing coincidental information. Stored messages with Laravel's encrypter that uses OpenSSL to provide AES-256 and AES-128 encryption.",
+        "url": "https://github.com/CH17/my-eyes-only",
+        "features": [
+            "Encrypted messages sending",
+            "Set only one time view or day based expiration",
+            "Password protection.",
+            "Auto deletion by Laravel Schedule"
+        ],
+        "tools": [ "Laravel", "Tailwind", "Vue JS"]
+    },
+
+    {
+        "title": "Book My Calender",
+        "description": "Booking appointment slot to Google Calendar.",
+        "url": "",
+        "features": [
+            "Book any predefined slots of Google Calendar."
+        ],
+        "tools": [ "PHP", "Vue JS", "Google API"]
+    },
+
+    {
+        "title": "Next Watch",
+        "description": "Find out similar Movies or TV shows.",
+        "url": "https://github.com/CH17/next-watch",
+        "features": [
+            "Search and find similar watch",
+            "TMDB connection"
+        ],
+        "tools": [ "TMDB API", "Bootstrap", "React JS"]
+    },
+
+    {
+        "title": "Eventony",
+        "description": "Create your Even with drag and drop, share your event page, get participation report.",
+        "url": "",
+        "features": [
+            "Create your own event",
+            "Add date, time, place on Map",
+            "Add schedule",
+            "Guests Detail",
+            "RVSP",
+            "Reserve seat for participant",
+            "Payment Gateway for Booking (On going)",
+            "Owner Dashboard"
+        ],
+        "tools": [ "Laravel API", "React JS", "Google Map", "Bootstrap", "AWS", "Stripe"]
+    },
+
+    {
+        "title": "WP Survey Plugin",
+        "description": "An easy to use Survey Plugin for WordPress",
+        "url": "https://github.com/CH17/s-quiz",
+        "features": [
+            "Nice and easy WP backend",
+            "Dynamic question creation",
+            "Display on the front-end using Short-code",
+            "Get participation details on the Dashboard"
+        ],
+        "tools": [ "WordPress", "CMB Meta Box", "JavaScript"]
+    }
+]

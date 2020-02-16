@@ -1,19 +1,14 @@
 import Profile from './components/pages/Profile'
 import Blog from './components/pages/Blog'
 import PetProjects from './components/pages/PetProjects'
-import Skills from './components/pages/Skills'
 import Contact from './components/pages/Contact'
 
 const Routes = [
     
   {
     path: '/',
-    component: Profile,
-    activeClassName: 'is-active',
-  }, 
-  {
-    path: '/blog',
     component: Blog,
+    activeClassName: 'is-active',
   },
   {
     path: '/pet-projects',
@@ -21,8 +16,8 @@ const Routes = [
     activeClassName: 'is-active',
   },
   {
-    path: '/skills',
-    component: Skills,
+    path: '/profile',
+    component: Profile,
     activeClassName: 'is-active',
   },
   {

@@ -9,24 +9,18 @@ export default class Header extends Component {
            <nav className="block mt-4">
                 <NavLink to="/" className="outline-none text-gray-800 hover:text-blue-700" activeClassName='text-gray-900' >
                     <span className="block lg:inline-block lg:mt-0 mr-10 text-lg ">
-                        Profile
+                        Home
                     </span>
                 </NavLink>
-                <NavLink className="outline-none text-gray-800 hover:text-blue-700" activeClassName='text-gray-900' to="/skills">
+                <NavLink className="outline-none text-gray-800 hover:text-blue-700" activeClassName='text-gray-900' to="/profile">
                     <span className="block lg:inline-block lg:mt-0 mr-10 text-lg">
-                        Skills
+                        Profile
                     </span>
                 </NavLink>
 
                 <NavLink className="outline-none text-gray-800 hover:text-blue-700" activeClassName='text-gray-900' to="/pet-projects">
                     <span className="block lg:inline-block lg:mt-0 mr-10 text-lg">
                         Pet Projects
-                    </span>
-                </NavLink>
-
-                <NavLink className="outline-none text-gray-800 hover:text-blue-700" activeClassName='text-gray-900' to="/blog">
-                    <span className="block lg:inline-block lg:mt-0 mr-10 text-lg ">
-                        Blog
                     </span>
                 </NavLink>
 

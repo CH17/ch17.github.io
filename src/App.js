@@ -10,8 +10,8 @@ import routes from './Routes';
 function App() {
   
   const routeComponents = routes.map(({path, component, activeClassName}, key) => 
-                                        <Route exact path={path} activeClassName={activeClassName ? activeClassName: ''} component={component} key={key} />
-                                      );
+    <Route exact path={path} activeClassName={activeClassName ? activeClassName: ''} component={component} key={key} />
+  );
   
   return (
 
