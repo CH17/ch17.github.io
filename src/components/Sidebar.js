@@ -8,7 +8,7 @@ export default class Sidebar extends Component {
               
                <div className="py-10 mt-16 text-center px-5 h-screen relative">
                     
-                    <img src="images/profile-photo-demo.jpeg" alt="Mridul" 
+                    <img src="images/profile-photo.jpg" alt="Mridul" 
                         className="rounded-full m-auto mb-5"/>                
                     
                     <h1 className=" text-blue-900 text-2xl font-semibold mb-1">Mridul Bhattacharjee</h1>                
