@@ -9,22 +9,22 @@ export default class Profile extends Component {
         <h3 className="uppercase text-xl mb-4 text-right text-gray-700 font-heading font-bold">My Profile</h3>
         <hr/>
         
-        <div class="w-full shadow-md border-solid border-gray-300 border rounded-md mt-4">            
+        <div className="w-full shadow-md border-solid border-gray-300 border rounded-md mt-4">            
             <h3 className="px-4 py-2  tracking-wide text-md leading-tight text-blue-800 font-bold">
-                Little bit about myslef.
+                little bit about myslef.
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 ml-2">!bragging</span> 
             </h3>            
             <hr/>
             <div className="text-gray-800 leading-relaxed m-2 px-4 py-2  ">                
                 <p>Even though, for last couple of years I’ve been mostly focused on client communication, team building, system design and planning, I love coding more than anything along with problem solving, algorithmic thinking and leadership. </p>
-                <p className="mt-1">I’ve been working as a Full Stack Developer for long time on LAMP Stack with extensive working experience on React and Vue. </p>
+                <p className="mt-1">I’ve been working as a Full Stack Developer for long time on LAMP Stack with extensive working experience on React and Vue. But I think I'm transferring from Caterpillar (PHP) to pupa (JavaScript) to butterfly (Node) </p>
             </div>
         </div>
 
         <div className="flex mt-4">
-            <div class="flex-inital shadow-md border-solid border-gray-300 border rounded-md mt-4">            
+            <div className="flex-inital shadow-md border-solid border-gray-300 border rounded-md mt-4">            
                 <h3 className="px-4 py-2  tracking-wide text-md leading-tight text-blue-800 font-bold">
-                   Short Timeline
+                   short timeline
                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 ml-2"> (still young!)</span> 
                 </h3>            
                 <hr/>
@@ -51,12 +51,12 @@ export default class Profile extends Component {
 
             <div className="ml-2 flex-auto shadow-md border-solid border-gray-300 border rounded-md mt-4">            
                 <h3 className="px-4 py-2  tracking-wide text-md leading-tight text-blue-800 font-bold">
-                    Things I'm good at
+                    things I'm good at
                     <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 ml-2"> (beside sleeping)</span> 
                 </h3>            
                 <hr/>
                 
-                <ul class="text-gray-800 leading-relaxed list-disc m-2 pl-8">
+                <ul className="text-gray-800 leading-relaxed list-disc m-2 pl-8">
                         <li>Project Management &amp; Planning</li>
                         <li>PHP, MySQL , Laravel, CI, Symfony 2</li>
                         <li>WordPress, Drupal, Shopify</li>
@@ -73,9 +73,9 @@ export default class Profile extends Component {
 
          
 
-        <div className="w-full shadow-md border-solid border-gray-300 border rounded-md mt-4">            
+        <div className="w-full shadow-md border-solid border-gray-300 border rounded-md mt-8">            
             <h3 className="px-4 py-2  tracking-wide text-md leading-tight text-blue-800 font-bold">
-                Professional Experience
+                professional experience
             </h3>            
             <hr/>
             <div className="text-gray-800 leading-relaxed m-2 px-4 py-2">     
@@ -101,13 +101,13 @@ Distribution Facility (DDF).</p>
         </div>
 
         <div className="flex mt-4">
-            <div class="flex-1 shadow-md border-solid border-gray-300 border rounded-md mt-4">            
+            <div className="flex-1 shadow-md border-solid border-gray-300 border rounded-md mt-4">            
                 <h3 className="px-4 py-2  tracking-wide text-md leading-tight text-blue-800 font-bold">
-                   Too Mainstream yet TRUE
+                   too Mainstream yet TRUE
                 </h3>            
                 <hr/>
-                <div class="text-gray-800 leading-relaxed m-2 px-4 py-2  ">                
-                    <ul class="text-gray-800 leading-relaxed list-disc  pl-6">
+                <div className="text-gray-800 leading-relaxed m-2 px-4 py-2  ">                
+                    <ul className="text-gray-800 leading-relaxed list-disc  pl-6">
                         <li>Passionate reader</li>
                         <li>Love to take new challenges</li>
                         <li>Like to work with team</li>
@@ -115,13 +115,13 @@ Distribution Facility (DDF).</p>
                 </div>
             </div>
 
-            <div class="ml-2 flex-1 shadow-md border-solid border-gray-300 border rounded-md mt-4">            
+            <div className="ml-2 flex-1 shadow-md border-solid border-gray-300 border rounded-md mt-4">            
                 <h3 className="px-4 py-2  tracking-wide text-md leading-tight text-blue-800 font-bold">
-                    Care About
+                    care about
                 </h3>            
                 <hr/>
-                <div class="text-gray-800 leading-relaxed m-2 px-4 py-2  ">                
-                    <ul class="text-gray-800 leading-relaxed list-disc pl-6">
+                <div className="text-gray-800 leading-relaxed m-2 px-4 py-2  ">                
+                    <ul className="text-gray-800 leading-relaxed list-disc pl-6">
                         <li>Friends &amp; Family</li>
                         <li>Community</li>
                         <li>Environment</li>

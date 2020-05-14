@@ -9,7 +9,7 @@ class SinglePost extends Component {
             <div className="w-full shadow-md mx-6 my-10 px-2 py-2">
 
                 <div className="flex">
-                <h3 className="mb-2 flex-1"> 
+                <h3 className="mb-2 flex-0"> 
                     <a  href="/blog/{{ this.props.post.slug }}" 
                         className="block mt-1 text-xl leading-tight font-heading text-gray-900 hover:text-blue-700">
                         { ReactHtmlParser(this.props.post.title) }
